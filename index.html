@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Thabiso Owen Machipi, an Astrophysicist, Data Scientist, and Data Analyst.">
+    <meta name="keywords" content="Astrophysicist, Data Scientist, Data Analyst, Portfolio, Python, SQL, R, Data Science">
+    <meta name="author" content="Thabiso Owen Machipi">
+    <title>Thabiso Owen Machipi - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: linear-gradient(135deg, #FF6347, lightblue);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        nav {
+            background-color: #4CAF50;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            color: #FFD700;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 30px auto;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section#about {
+            background: linear-gradient(135deg, #D3D3D3, #B0E0E6);
+        }
+
+        section#skills,
+        section#projects,
+        section#certificates,
+        section#experience {
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            color: #FF6347;
+        }
+
+        .skills, .projects, .certificates, .experience, .references {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            flex: 1 1 calc(50% - 20px);
+            background-color: #fdfdfd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        footer .social-links a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        footer .social-links a:hover {
+            color: #FF6347;
+        }
+
+        footer .social-links img {
+            width: 24px; /* Small size for the social icons */
+            height: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        footer .social-links img:hover {
+            transform: scale(1.1); /* Slightly enlarge on hover */
+        }
+
+        /* For moderate size */
+        footer .social-links img.moderate {
+            width: 32px; /* Moderate size for the social icons */
+            height: 32px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #FF6347;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #FFD700;
+        }
+
+        @media (max-width: 768px) {
+            .skills, .projects, .certificates {
+                flex-direction: column;
+            }
+
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="machipi.jpg" alt="Thabiso Owen Machipi">
+        <h1>Thabiso Owen Machipi</h1>
+        <p>Astrophysicist | Data Enthusiast | Data Analyst | Lab Assistant | Marketing Analyst | Data Scientist | Data Capturer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#professional-skills">Professional Skills</a>
+        <a href="#programming-skills">Programming Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#experience">Experience</a>
+        <a href="#references">References</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm an open-minded, self-assured individual who appreciates working under pressure and accepting new challenges. My potential and intellectual curiosity are equal to my commitment to influencing others and maintaining a good outlook. I have submitted my MSc in Astrophysical Science and am awaiting examination results, and I hold an Hons degree in physics. My strongest skills are research, writing, statistical analysis, communication, computer language competency (Python, SQL, R), and conveying complex and specialized ideas.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Master of Science in Astrophysical Sciences</strong>, <em>North-West University</em> (2022–2024)</li>
+            <li><strong>Bachelor of Science Hons in Physics</strong>, <em>North-West University</em> (2021–Full year)</li>
+            <li><strong>Bachelor of Science in Physical Sciences</strong>, <em>University of Limpopo</em> (2017–2020)</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">
+                <h3>Programming</h3>
+                <p>Python, R, SQL</p>
+            </div>
+            <div class="card">
+                <h3>Visualization</h3>
+                <p>Power BI, Tableau, Matplotlib</p>
+            </div>
+            <div class="card">
+                <h3>Data Analysis</h3>
+                <p>Pandas, NumPy, Scikit-learn</p>
+            </div>
+            <div class="card">
+                <h3>Database Management</h3>
+                <p>MySQL, PostgreSQL</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="professional-skills">
+        <h2>Professional Skills</h2>
+        <ul>
+            <li>Presentation Skills</li>
+            <li>Communication</li>
+            <li>Research</li>
+            <li>Microsoft Excel</li>
+            <li>Report Writing</li>
+            <li>Laboratory Equipment</li>
+            <li>Leadership</li>
+            <li>Laboratory Techniques</li>
+            <li>Team Leadership</li>
+            <li>Data Management</li>
+            <li>Analytical Skills</li>
+            <li>Microsoft Office</li>
+            <li>Laboratory Information Management System (LIMS)</li>
+            <li>Problem Solving</li>
+            <li>Oral Communication</li>
+        </ul>
+    </section>
+
+    <section id="programming-skills">
+        <h2>Programming Skills</h2>
+        <ul>
+            <li>Python and R</li>
+            <li>LaTeX</li>
+            <li>SQL</li>
+            <li>Power BI</li>
+            <li>Tableau</li>
+            <li>Linux System</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Customer Churn Prediction</h3>
+                <img src="python_project.jpg" alt="Customer Churn Prediction" loading="lazy">
+                <p>Developed a predictive model to identify customers likely to leave a subscription service. Tools used: Python.</p>
+                <a href="https://github.com/thabisomachipi97/HexSoftwares_Project1_Thabiso" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="card">
+                <h3>Sales Dashboard</h3>
+                <img src="new.jpg" alt="Sales Dashboard" loading="lazy">
+                <p>Created an interactive dashboard for sales trends and inventory management. Tools used: Power BI, SQL.</p>
+                <a href="https://github.com/thabisomachipi97/Sales-Dashboard" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="card">
+                <h3>Supernova Remnants Data Analysis</h3>
+                <img src="supernovas.jpg" alt="Supernova Remnants Data Analysis" loading="lazy">
+                <p>Analyzed astrophysical data to study magnetic field dynamics. Tools used: Python, Matplotlib, NumPy.</p>
+                <a href="https://github.com/thabisomachipi97/Supernova-Remnants" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <ul>
+            <li>Introduction to Data Science</li>
+            <li>Data Analysis with Python</li>
+            <li>Introduction to Tableau Desktop</li>
+            <li>Occupational Workplace Health and Safety for the Mining Industry</li>
+            <li>SQL for Beginners</li>
+            <li>Microsoft Power BI Data Analyst Professional Certificate</li>
+            <li>Microsoft Office</li>
+            <li>Introduction to Compliance and Risk Management</li>
+            <li>Operational Risk Management</li>
+            <li>Getting Started with SAS Visual Analytics</li>
+            <li>Preparing Data for Analysis with Excel</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Chemistry Lab Assistant at <em>University of Limpopo</em> (2019–2020)</h3>
+        <p>
+            In my role as a Laboratory Assistant at the University of Limpopo, I conducted experiments, analyzed data, and maintained lab cleanliness to ensure accurate results and a safe working environment. I developed skills in experimental design, data analysis, and laboratory safety protocols, contributing to the university's scientific research success.
+        </p>
+        <ul>
+            <li>Conducted and designed experiments to test scientific hypotheses.</li>
+            <li>Analyzed experimental data and presented findings in reports and presentations.</li>
+            <li>Ensured compliance with laboratory safety protocols and cleanliness standards.</li>
+            <li>Supported faculty and students in executing research projects.</li>
+        </ul>
+        <h3>Physics Tutor at <em>North-West University</em> (Feb 2022–Oct 2024)</h3>
+        <p>
+            In my role as a Physics Tutor at North-West University, I assisted students with the fundamentals of physics, conducted experiments, and analyzed data to enhance their understanding. I also designed customized teaching techniques to improve academic performance and mentored students on the importance of education.
+        </p>
+    </section>
+
+    <section id="references">
+        <h2>References</h2>
+        <ul>
+            <li><strong>Prof Iurii Sushch</strong> (Project Supervisor) <br>North-West University (Potchefstroom Campus) <br>Phone: +27 (0) 63 608 5294</li>
+            <li><strong>Ms TG Ramakadi</strong> (Senior Lab Assistant/Mentor) <br>University of Limpopo (Polokwane) <br>Phone: 082 294 6139</li>
+            <li><strong>Mr MI Sello</strong> (Facilitator/Computer Trainer) <br>University of Limpopo (Polokwane) <br>Phone: 076 986 7088</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Thabiso Owen Machipi. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/thabiso-owen-machipi/" target="_blank" title="Visit my LinkedIn">
+                <img src="linkedin.jpg" alt="LinkedIn" loading="lazy" class="moderate">
+            </a>
+            <a href="https://github.com/thabisomachipi97" target="_blank" title="Visit my GitHub">
+                <img src="github.jpg" alt="GitHub" loading="lazy" class="moderate">
+            </a>
+            <a href="mailto:thabisomachipi97@gmail.com" title="Send me an email">
+                <img src="gmail.jpg" alt="Email" loading="lazy" class="moderate">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
